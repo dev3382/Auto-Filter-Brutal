@@ -92,9 +92,9 @@ async def start(bot, cmd):
         )
     else:
         await cmd.reply_photo(
-            photo='https://telegra.ph/file/6d1d397b05f7c69487388.jpg',
+            photo='https://telegra.ph/file/66af926083a5b9c3f5515.jpg',
             caption="""𝑯𝒆𝒚 👋😍
-I Am Team Rebel 𝘼𝙪𝙩𝙤 𝙁𝙞𝙡𝙩𝙚𝙧 Bot!!!
+I Am Team Rebel Movie Finder Bot!!!
 @@teamrebel1 , @@teamrebel1""",
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
