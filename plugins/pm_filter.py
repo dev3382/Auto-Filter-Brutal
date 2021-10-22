@@ -30,7 +30,7 @@ async def filter(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("⭕ 𝐎𝐔𝐑 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐋𝐈𝐍𝐊𝐒 ⭕", url=invite_link.invite_link)
+                            InlineKeyboardButton("⚡ 𝐎𝐔𝐑 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐋𝐈𝐍𝐊𝐒 ⚡", url=invite_link.invite_link)
                         ]
                     ]
                 ),
@@ -81,10 +81,10 @@ async def filter(client, message):
             if API_KEY:
                 poster=await get_poster(search)
             if poster:
-                await message.reply_photo(photo=poster, caption=f"<b>●🎪Tɪᴛʟᴇ :</b> <code>{search}</code>\n\n<b>●ᴄʜᴀɴɴᴇʟ ʟɪɴ𝐊s : [𝙅𝙊𝙄𝙉](https://telegram.dog/MovieHouse_Linkz)\n● ᴘᴏᴡᴇʀᴇᴅ ʙʏ : ᴍᴏᴠɪᴇ ʜᴏᴜsᴇ ᴇɴᴛᴇʀᴛᴀɪɴᴍᴇɴᴛ™</b>\n\n<b>ɪ𝙵 ʏᴏᴜ ᴅᴏ ɴᴏᴛ sᴇᴇ ᴛʜᴇ 𝙵ɪʟᴇ𝚂 ᴏ𝙵 ᴛʜɪ𝚂 ᴍᴏᴠɪᴇ ʏᴏᴜ ᴀ𝚂ᴋᴇᴅ 𝙵ᴏʀ . ʟᴏᴏᴋ ᴀᴛ ɴᴇ𝚇ᴛ ᴘᴀɢᴇ</b>", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_photo(photo=poster, caption=f"<b>●🎪Tɪᴛʟᴇ :</b> <code>{search}</code>\n\n<b>●ᴄʜᴀɴɴᴇʟ ʟɪɴ𝐊s : [𝙅𝙊𝙄𝙉](https://t.me/teamrebel1)\n● ᴘᴏᴡᴇʀᴇᴅ ʙʏ : TEAM REBEL</b>\n\n<b>ɪ𝙵 ʏᴏᴜ ᴅᴏ ɴᴏᴛ sᴇᴇ ᴛʜᴇ 𝙵ɪʟᴇ𝚂 ᴏ𝙵 ᴛʜɪ𝚂 ᴍᴏᴠɪᴇ ʏᴏᴜ ᴀ𝚂ᴋᴇᴅ 𝙵ᴏʀ . ʟᴏᴏᴋ ᴀᴛ ɴᴇ𝚇ᴛ ᴘᴀɢᴇ</b>", reply_markup=InlineKeyboardMarkup(buttons))
 
             else:
-                await message.reply_text(f"<b>●🎪Tɪᴛʟᴇ :</b> <code>{search}</code>\n\n<b>●ᴄʜᴀɴɴᴇʟ ʟɪɴ𝐊s : [𝙅𝙊𝙄𝙉](https://telegram.dog/MovieHouse_Linkz)\n● ᴘᴏᴡᴇʀᴇᴅ ʙʏ : ᴍᴏᴠɪᴇ ʜᴏᴜsᴇ ᴇɴᴛᴇʀᴛᴀɪɴᴍᴇɴᴛ™</b>\n\n<b>ɪ𝙵 ʏᴏᴜ ᴅᴏ ɴᴏᴛ sᴇᴇ ᴛʜᴇ 𝙵ɪʟᴇ𝚂 ᴏ𝙵 ᴛʜɪ𝚂 ᴍᴏᴠɪᴇ ʏᴏᴜ ᴀ𝚂ᴋᴇᴅ 𝙵ᴏʀ . ʟᴏᴏᴋ ᴀᴛ ɴᴇ𝚇ᴛ ᴘᴀɢᴇ</b>", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_text(f"<b>●🎪Tɪᴛʟᴇ :</b> <code>{search}</code>\n\n<b>●ᴄʜᴀɴɴᴇʟ ʟɪɴ𝐊s : [𝙅𝙊𝙄𝙉](https://t.me/teamrebel1)\n● ᴘᴏᴡᴇʀᴇᴅ ʙʏ : TEAM REBEL</b>\n\n<b>ɪ𝙵 ʏᴏᴜ ᴅᴏ ɴᴏᴛ sᴇᴇ ᴛʜᴇ 𝙵ɪʟᴇ𝚂 ᴏ𝙵 ᴛʜɪ𝚂 ᴍᴏᴠɪᴇ ʏᴏᴜ ᴀ𝚂ᴋᴇᴅ 𝙵ᴏʀ . ʟᴏᴏᴋ ᴀᴛ ɴᴇ𝚇ᴛ ᴘᴀɢᴇ</b>", reply_markup=InlineKeyboardMarkup(buttons))
             return
 
         data = BUTTONS[keyword]
@@ -145,9 +145,9 @@ async def group(client, message):
             if API_KEY:
                 poster=await get_poster(search)
             if poster:
-                await message.reply_photo(photo=poster, caption=f"<b>●🎪Tɪᴛʟᴇ :</b> <code>{search}</code>\n\n<b>●ᴄʜᴀɴɴᴇʟ ʟɪɴ𝐊s : [𝙅𝙊𝙄𝙉](https://telegram.dog/MovieHouse_Linkz)\n● ᴘᴏᴡᴇʀᴇᴅ ʙʏ : ᴍᴏᴠɪᴇ ʜᴏᴜsᴇ ᴇɴᴛᴇʀᴛᴀɪɴᴍᴇɴᴛ™</b>\n\n<b>ɪ𝙵 ʏᴏᴜ ᴅᴏ ɴᴏᴛ sᴇᴇ ᴛʜᴇ 𝙵ɪʟᴇ𝚂 ᴏ𝙵 ᴛʜɪ𝚂 ᴍᴏᴠɪᴇ ʏᴏᴜ ᴀ𝚂ᴋᴇᴅ 𝙵ᴏʀ . ʟᴏᴏᴋ ᴀᴛ ɴᴇ𝚇ᴛ ᴘᴀɢᴇ</b>", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_photo(photo=poster, caption=f"<b>●🎪Tɪᴛʟᴇ :</b> <code>{search}</code>\n\n<b>●ᴄʜᴀɴɴᴇʟ ʟɪɴ𝐊s : [𝙅𝙊𝙄𝙉](https://t.me/teamrebel1)\n● ᴘᴏᴡᴇʀᴇᴅ ʙʏ : TEAM REBEL</b>\n\n<b>ɪ𝙵 ʏᴏᴜ ᴅᴏ ɴᴏᴛ sᴇᴇ ᴛʜᴇ 𝙵ɪʟᴇ𝚂 ᴏ𝙵 ᴛʜɪ𝚂 ᴍᴏᴠɪᴇ ʏᴏᴜ ᴀ𝚂ᴋᴇᴅ 𝙵ᴏʀ . ʟᴏᴏᴋ ᴀᴛ ɴᴇ𝚇ᴛ ᴘᴀɢᴇ</b>", reply_markup=InlineKeyboardMarkup(buttons))
             else:
-                await message.reply_text(f"<b>●🎪Tɪᴛʟᴇ :</b> <code>{search}</code>\n\n<b>●ᴄʜᴀɴɴᴇʟ ʟɪɴ𝐊s : [𝙅𝙊𝙄𝙉](https://telegram.dog/MovieHouse_Linkz)\n● ᴘᴏᴡᴇʀᴇᴅ ʙʏ : ᴍᴏᴠɪᴇ ʜᴏᴜsᴇ ᴇɴᴛᴇʀᴛᴀɪɴᴍᴇɴᴛ™</b>\n\n<b>ɪ𝙵 ʏᴏᴜ ᴅᴏ ɴᴏᴛ sᴇᴇ ᴛʜᴇ 𝙵ɪʟᴇ𝚂 ᴏ𝙵 ᴛʜɪ𝚂 ᴍᴏᴠɪᴇ ʏᴏᴜ ᴀ𝚂ᴋᴇᴅ 𝙵ᴏʀ . ʟᴏᴏᴋ ᴀᴛ ɴᴇ𝚇ᴛ ᴘᴀɢᴇ</b>", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_text(f"<b>●🎪Tɪᴛʟᴇ :</b> <code>{search}</code>\n\n<b>●ᴄʜᴀɴɴᴇʟ ʟɪɴ𝐊s : [𝙅𝙊𝙄𝙉](https://telegram.doc/teamrebel1)\n● ᴘᴏᴡᴇʀᴇᴅ ʙʏ : TEAM REBEL</b>\n\n<b>ɪ𝙵 ʏᴏᴜ ᴅᴏ ɴᴏᴛ sᴇᴇ ᴛʜᴇ 𝙵ɪʟᴇ𝚂 ᴏ𝙵 ᴛʜɪ𝚂 ᴍᴏᴠɪᴇ ʏᴏᴜ ᴀ𝚂ᴋᴇᴅ 𝙵ᴏʀ . ʟᴏᴏᴋ ᴀᴛ ɴᴇ𝚇ᴛ ᴘᴀɢᴇ</b>", reply_markup=InlineKeyboardMarkup(buttons))
             return
 
         data = BUTTONS[keyword]
@@ -163,7 +163,7 @@ async def group(client, message):
         if API_KEY:
             poster=await get_poster(search)
         if poster:
-            await message.reply_photo(photo=poster, caption=f"<b>●🎪Tɪᴛʟᴇ :</b> <code>{search}</code>\n\n<b>●ᴄʜᴀɴɴᴇʟ ʟɪɴ𝐊s : [𝙅𝙊𝙄𝙉](https://telegram.dog/MovieHouse_Linkz)\n● ᴘᴏᴡᴇʀᴇᴅ ʙʏ : ᴍᴏᴠɪᴇ ʜᴏᴜsᴇ ᴇɴᴛᴇʀᴛᴀɪɴᴍᴇɴᴛ™</b>\n\n<b>ɪ𝙵 ʏᴏᴜ ᴅᴏ ɴᴏᴛ sᴇᴇ ᴛʜᴇ 𝙵ɪʟᴇ𝚂 ᴏ𝙵 ᴛʜɪ𝚂 ᴍᴏᴠɪᴇ ʏᴏᴜ ᴀ𝚂ᴋᴇᴅ 𝙵ᴏʀ . ʟᴏᴏᴋ ᴀᴛ ɴᴇ𝚇ᴛ ᴘᴀɢᴇ</b>", reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_photo(photo=poster, caption=f"<b>●🎪Tɪᴛʟᴇ :</b> <code>{search}</code>\n\n<b>●ᴄʜᴀɴɴᴇʟ ʟɪɴ𝐊s : [𝙅𝙊𝙄𝙉](https://telegram.doc/teamrebel1)\n● ᴘᴏᴡᴇʀᴇᴅ ʙʏ : TEAM REBEL</b>\n\n<b>ɪ𝙵 ʏᴏᴜ ᴅᴏ ɴᴏᴛ sᴇᴇ ᴛʜᴇ 𝙵ɪʟᴇ𝚂 ᴏ𝙵 ᴛʜɪ𝚂 ᴍᴏᴠɪᴇ ʏᴏᴜ ᴀ𝚂ᴋᴇᴅ 𝙵ᴏʀ . ʟᴏᴏᴋ ᴀᴛ ɴᴇ𝚇ᴛ ᴘᴀɢᴇ</b>", reply_markup=InlineKeyboardMarkup(buttons))
         else:
             await message.reply_text(f"<b>Here is What I Found In My Database For Your Query {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
 
@@ -200,7 +200,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             try:
                 data = BUTTONS[keyword]
             except KeyError:
-                await query.answer("അല്ലയോ മഹാൻ താങ്കൾ ക്ലിക്ക് ചെയ്തത് പഴയ മെസ്സേജ് ആണ് വേണമെങ്കിൽ ഒന്നും കൂടെ റിക്വസ്റ്റ് ചെയ് 😉\n\nYou are using this for one of my old message, please send the request again",show_alert=True)
+                await query.answer("REBELX BRUTAL 😉\n\nYou are using this for one of my old message, please send the request again",show_alert=True)
                 return
 
             if int(index) == int(data["total"]) - 2:
@@ -238,7 +238,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             try:
                 data = BUTTONS[keyword]
             except KeyError:
-                await query.answer("അല്ലയോ മഹാൻ താങ്കൾ ക്ലിക്ക് ചെയ്തത് പഴയ മെസ്സേജ് ആണ് വേണമെങ്കിൽ ഒന്നും കൂടെ റിക്വസ്റ്റ് ചെയ് 😉\n\nYou are using this for one of my old message, please send the request again.",show_alert=True)
+                await query.answer("REBELX BRUTAL 😉\n\nYou are using this for one of my old message, please send the request again.",show_alert=True)
                 return
 
             if int(index) == 1:
@@ -272,11 +272,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('⭕ 𝐎𝐔𝐑 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐋𝐈𝐍𝐊𝐒 ⭕', url='https://t.me/MovieHouse_Linkz'),
-                    InlineKeyboardButton('🖥️ 𝐍𝐄𝐖 𝐎𝐓𝐓 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 🖥️', url='https://t.me/NewDvdUpdatesKerala')
+                    InlineKeyboardButton('⭕ 𝐎𝐔𝐑 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐋𝐈𝐍𝐊𝐒 ⭕', url='https://t.me/teamrebel1'),
+                    InlineKeyboardButton('🖥️ 𝐍𝐄𝐖 𝐎𝐓𝐓 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 🖥️', url='https://t.me/teamrebel1')
                 ]
                 ]
-            await message.reply(text="<b>Developer : <a href='https://t.me/abhijith876'>ABHIJITH</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/culprit-k/Adv-AutoFilter-Bot-v5'>Click here</a>\n⭕ 𝐎𝐔𝐑 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐋𝐈𝐍𝐊𝐒 ⭕ : <a href='https://t.me/MovieHouse_Linkz'>ALL LINKS</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await message.reply(text="<b>Developer : <a href='https://t.me/teamrebel1'>ABHIJITH</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/culprit-k/Adv-AutoFilter-Bot-v5'>Click here</a>\n⭕ 𝐎𝐔𝐑 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐋𝐈𝐍𝐊𝐒 ⭕ : <a href='https://t.me/teamrebel1'>ALL LINKS</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
@@ -297,7 +297,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"<b>🗃 ғɪʟᴇ ɴᴀᴍᴇ :</b>\n<code>{file_name}</code>"
                 buttons = [
                     [
-                        InlineKeyboardButton('⭕ 𝐎𝐔𝐑 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐋𝐈𝐍𝐊𝐒 ⭕', url='https://t.me/MovieHouse_Linkz')
+                        InlineKeyboardButton('⭕ 𝐎𝐔𝐑 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐋𝐈𝐍𝐊𝐒 ⭕', url='https://t.me/teamrebel1')
                     ]
                     ]
                 
@@ -328,7 +328,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"<b>🗃 ғɪʟᴇ ɴᴀᴍᴇ :</b>\n<code>{file_name}</code>"
                 buttons = [
                     [
-                        InlineKeyboardButton('⭕ 𝐎𝐔𝐑 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐋𝐈𝐍𝐊𝐒 ⭕', url='https://t.me/MovieHouse_Linkz')
+                        InlineKeyboardButton('⭕ 𝐎𝐔𝐑 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐋𝐈𝐍𝐊𝐒 ⭕', url='https://t.me/teamrebel1')
                     ]
                     ]
                 
@@ -344,4 +344,4 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "pages":
             await query.answer()
     else:
-        await query.answer("കൌതുകും ലേശം കൂടുതൽ ആണല്ലേ👀",show_alert=True)
+        await query.answer("HUE HUE HUE👀",show_alert=True)
